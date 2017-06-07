@@ -1,0 +1,86 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+
+  calc :{
+    border: '#d6d7da',
+    backgroundColor: '#FFFFFF',
+    maxWidth: 300,
+    maxHeight: 500,
+  },
+
+  title :{
+    margin:0,
+    paddingLeft: 5,
+    paddingTop: 5,
+    fontFamily: 'Helvetica',
+    fontSize: 12,
+  },
+
+  back: {
+    backgroundColor: '#FFFFFF',
+    margin:0,
+    color:'#ABABAB',
+    textAlign: 'right',
+    height: 5,
+    paddingRight: 10,
+    paddingTop: 5,
+  },
+
+  display: {
+    margin:0,
+    backgroundColor: '#FFFFFF',
+    textAlign: 'right',
+    paddingRight: 10,
+  },
+
+  buttons: {
+    flex: 1,
+    border:'none',
+    shadow: 'none',
+    borderRadius: 0,
+    backgroundColor: '#E3E3E3',
+    color: '#000000',
+    fontFamily: 'Arial',
+    fontSize: 23,
+    fontWeight: 100,
+    padding: 13,
+    textDecoration: 'none',
+    display: 'inlineBlock',
+  },
+
+  buttonsTop : {
+    flex: 1,
+    border:'none',
+    shadow: 'none',
+    borderRadius: 0,
+    backgroundColor: '#E3E3E3',
+    color: '#000000',
+    fontFamily: 'Arial',
+    fontSize: 23,
+    fontWeight: 100,
+    padding: 13,
+  },
+
+  input :{
+      borderWidth: 5,
+      borderColor: 'white',
+      padding: 15,
+      backgroundColor: '#E3E3E3',
+      textAlign: 'right',
+  },
+});
